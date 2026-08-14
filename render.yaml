@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: domainstate-api
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
